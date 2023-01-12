@@ -1,0 +1,160 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.parent-box1 {
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: max-content;
+  height: 100%;
+}
+.logo-div {
+  width: 65px;
+  height: 75%;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+#logo {
+  height: 36px;
+  width: 53px;
+  margin-bottom: 10px;
+}
+.menu-div {
+  margin-left: 10px;
+  display: flex;
+  width: 490px;
+  justify-content: space-evenly;
+
+  height: 100%;
+  align-items: end;
+}
+#main-div {
+  display: inline-block;
+  position: relative;
+  height: 70%;
+}
+#button {
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(40, 44, 63);
+  font-weight: 500;
+  font-size: 14px;
+}
+.parent-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  width: 50%;
+  height: 100%;
+}
+#search {
+  border-radius: 5px;
+  background-color: rgb(247, 247, 252);
+  padding-left: 50px;
+  border-left: 1px solid grey;
+  border: 0;
+  height: 40px;
+  width: 340px;
+}
+.div1 span {
+  margin-left: -385px;
+  text-align: center;
+  cursor: pointer;
+  color: hotpink;
+}
+.fa-solid,
+.fas {
+  font-weight: 900;
+}
+#two {
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  top: 60px;
+  width: 340px;
+  height: 340px;
+  max-height: 340px;
+  margin-left: -39px;
+  z-index: 1;
+  border: black;
+  border-radius: 0px 0px 4px 4px;
+  overflow: auto;
+}
+#other-div {
+  display: flex;
+  margin-left: 380px;
+  justify-content: space-evenly;
+  width: 250px;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+#other-div div {
+  height: max-content;
+}
+#i2 {
+  font-size: 17px;
+  color: rgb(235, 53, 144);
+}
+#profile-tag {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  margin: auto;
+}
+#profile-tag a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 2px;
+}
+#count-wish,
+#count-cart {
+  font-size: 10px;
+}
+#i1 {
+  font-size: 17px;
+  color: rgb(235, 53, 144);
+}
+#wishlist-tag,
+#cart-tag {
+  font-size: 14px;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
