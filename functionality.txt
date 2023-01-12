@@ -1,0 +1,7 @@
+Version 1:=
+
+Functionality-
+1) create the UI part of project.
+2) select the item.
+3) In the cart increase or decrease the item.
+4) make payment 
